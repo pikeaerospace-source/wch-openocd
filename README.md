@@ -16,7 +16,7 @@ Up to 2024-11-26, the laste firmware version:
 
 ```
 ./bootstrap
-./configure --prefix=/opt/wch-openocd --enable-wlinke --disable-ch347 --disable-linuxgpiod --disable-werror --program-prefix=wch-
+./configure --prefix=/opt/wch-openocd --disable-internal-jimtcl --enable-wlinke --disable-ch347 --disable-linuxgpiod --disable-werror --program-prefix=wch-
 make
 sudo make install
 ```
