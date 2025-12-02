@@ -27,7 +27,7 @@ fi
 
 echo "Generating build system..."
 
-$LIBTOOLIZE --install --copy || exit 1
+$LIBTOOLIZE --force --install --copy || exit 1
 aclocal -I m4 || exit 1
 autoheader || exit 1
 autoconf || exit 1
